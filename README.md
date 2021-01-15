@@ -1,7 +1,6 @@
 # Weather-Website
 First NodeJs Project
-# Weather-Website
-First NodeJs Project
+
 
 Reference-Thapa Technical(Youtube)
 //
