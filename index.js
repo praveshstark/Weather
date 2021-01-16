@@ -1,4 +1,4 @@
-var PORT=process.env.PORT || 8000;
+const port=process.env.PORT || 8000;
 const http=require('http');
 const fs=require('fs');
 var requests=require('requests');
@@ -36,7 +36,9 @@ const server=http.createServer((req,res)=>{
     }
 });
 
-server.listen(8000,"127.0.0.1");
-
+//server.listen(8000,"127.0.0.1");
+server.listen((port),()=>{
+    console.log(`listing to the port no. at ${port}`);
+})
 //api.openweathermap.org/data/2.5/weather?q=Etah&appid=9270ea351549f7646ac47a71735107d2
 //api.openweathermap.org/data/2.5/weather?q=etah&appid=9270ea351549f7646ac47a71735107d2units=metric
