@@ -1,4 +1,4 @@
-# Weather-Website
+# Weather
 First NodeJs Project
 
 ## Check master Branch
